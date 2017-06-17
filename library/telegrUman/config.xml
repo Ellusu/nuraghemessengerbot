@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <item>
+        <name>id</name>
+        <default></default>
+        <temporany></temporany>
+    </item>
+    <item>
+        <name>user</name>
+        <default></default>
+        <temporany></temporany>
+    </item>
+    <item>
+        <name>step</name>
+        <default>0</default>
+        <temporany></temporany>
+    </item>
+    <item>
+        <name>page</name>
+        <default>0</default>
+        <temporany></temporany>
+    </item>
+    <item>
+        <name>pagination</name>
+        <default>0</default>
+        <temporany></temporany>
+    </item>
+
+</config>
