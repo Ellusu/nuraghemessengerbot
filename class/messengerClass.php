@@ -30,9 +30,7 @@
                     'long'  =>  $input['entry'][0]['messaging'][0]['message']['attachments'][0]['payload']['coordinates']['long']
                         );
                 $subject = "Start - New FB coordinates - NuragheBot starter";
-                $message = $content;
-                mail('matteo.enna89@gmail.com', $subject, $message);
-                
+                $message = $content;                
             } elseif(isset($input['entry'][0]['messaging'][0]['message']['text'])) {
                 $this->message = array(
                     'text'=>$input['entry'][0]['messaging'][0]['message']['text']
